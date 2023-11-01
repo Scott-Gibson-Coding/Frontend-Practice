@@ -1,0 +1,76 @@
+/* CSS Variables*/
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --clr-primary: #4c5fd5;
+  --clr-secondary: #dadbf1;
+}
+
+html,
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+#navbar {
+  display: flex;
+
+  font-size: 20px;
+
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Search section styling */
+#search-section {
+  background-color: var(--clr-secondary);
+  text-align: center;
+  padding-block: 4em;
+}
+
+.search-title {
+  margin: 20px;
+  font-size: 48px;
+}
+
+.search-input {
+  margin: 20px;
+  padding: 15px;
+  width: 80%;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* Learn more section */
+#learn-more-section {
+}
+
+/* Help button styling */
+#help-button {
+  background-color: var(--clr-primary);
+  color: var(--white);
+
+  padding: 10px;
+  border-radius: 30px;
+
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+#help-button i {
+  margin-inline: 0.5rem;
+}
