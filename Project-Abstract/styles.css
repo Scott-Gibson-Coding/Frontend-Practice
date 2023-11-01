@@ -52,7 +52,23 @@ h1 {
 }
 
 /* Learn more section */
-#learn-more-section {
+/* #learn-more-section {
+} */
+
+.card {
+  border: 2px solid black;
+}
+
+.card-image {
+  width: 15%;
+  height: 30px;
+  background-color: var(--clr-primary);
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /* Help button styling */
@@ -63,7 +79,7 @@ h1 {
   padding: 10px;
   border-radius: 30px;
 
-  position: absolute;
+  position: fixed;
   bottom: 24px;
   right: 24px;
 
