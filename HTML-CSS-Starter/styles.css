@@ -1,0 +1,21 @@
+/* CSS boilerplate code */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 10px; /* 1 rem = 10px */
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* custom css starts here */
