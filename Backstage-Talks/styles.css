@@ -9,6 +9,7 @@
 html,
 body {
   font-size: 10px; /* 1 rem = 10px */
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 
@@ -27,12 +28,73 @@ img {
 
 /* END boilerplate code */
 
+/* background colors */
+
+.bg-1 {
+  background-color: #e30512;
+}
+.bg-2 {
+  background-color: #1d3fbb;
+}
+.bg-3 {
+  background-color: #ffbe00;
+}
+.bg-4 {
+  background-color: #ff651a;
+}
+.bg-5 {
+  background-color: #00c1b5;
+}
+.bg-6 {
+  background-color: white;
+}
+.bg-7 {
+  background-color: pink;
+}
+
+/* font styling */
+.font-bold {
+  font-weight: 600;
+}
+
+.font-tiny {
+  font-size: 1.2rem;
+}
+
+.font-small {
+  font-size: 1.4rem;
+}
+
+.font-medium {
+  font-size: 1.8rem;
+}
+
+.font-large {
+  font-size: 2.4rem;
+}
+
+/* link styling */
+.link-underline {
+  text-decoration: underline;
+}
+.link-underline:hover {
+  text-decoration: inherit;
+}
+
+.link-normal {
+  text-decoration: inherit;
+}
+.link-normal:hover {
+  text-decoration: underline;
+}
+
 /* header styling */
 header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  padding: 1.5rem;
 }
 
 .header-content {
@@ -63,26 +125,32 @@ main {
   scroll-snap-align: start;
 }
 
-/* background colors */
+/* footer styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
 
-.bg-1 {
-  background-color: #e30512;
+.footer-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+
+  padding: 1.5rem;
 }
-.bg-2 {
-  background-color: #1d3fbb;
+
+.footer-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  padding: 1.5rem;
 }
-.bg-3 {
-  background-color: #ffbe00;
-}
-.bg-4 {
-  background-color: #ff651a;
-}
-.bg-5 {
-  background-color: #00c1b5;
-}
-.bg-6 {
-  background-color: white;
-}
-.bg-7 {
-  background-color: pink;
+
+nav {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
 }

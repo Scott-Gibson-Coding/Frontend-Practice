@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Name</title>
+    <title>Backstage Talks</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <div class="header-content">
-        <!-- DEBUG: SHOULD BE AN img NOT h1 -->
-        <h1 class="">BACKSTAGE TALKS</h1>
-        <a href="" class="">info@backstagetalks.com</a>
+        <img src="./images/logo.png" alt="Backstage Talks Logo" height="30px" />
+        <!-- Move to a section with the other two static elements. 
+            Will be moved with all other static elems if device type
+            changes. -->
+        <a href="" class="link-normal font-medium font-bold"
+          >info@backstagetalks.com</a
+        >
       </div>
     </header>
 
@@ -27,6 +31,33 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-left">
+        <p class="font-medium font-bold">
+          Backstage Talks is a magazine of casual, but in depth dialogues on
+          design and business. Our decisions shape and influence this complex
+          world—to have a chance to make the right ones, we need to talk.
+        </p>
+        <p class="font-tiny">
+          © 2023
+          <a href="" class="link-underline font-tiny">Published by Büro Milk</a>
+        </p>
+        <a href="" class="link-underline font-medium font-bold"
+          >Privacy Policy</a
+        >
+      </div>
+
+      <div class="footer-right">
+        <nav class="font-medium">
+          <a href="" class="nav-item link-normal">Issue #1</a>
+          <a href="" class="nav-item link-normal">Issue #2</a>
+          <a href="" class="nav-item link-normal">Issue #3</a>
+          <a href="" class="nav-item link-normal">Issue #4</a>
+          <a href="" class="nav-item link-normal">Issue #5</a>
+          <a href="" class="nav-item link-normal">Issue #6</a>
+          <a href="" class="nav-item link-normal">Issue #7</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
