@@ -8,6 +8,16 @@ and are separated into three levels of difficulty.
 
 ---
 
+## Personal Projects
+
+#### Leetcode (Work in progress)
+
+I was just browsing Leetcode lately, and noticed they have a pretty way of displaying
+cards on their explore page: leetcode.com/explore/
+
+I think it's a cool effect, yet not too complicated that I imagine it will only take a
+few hours to figure out.
+
 ## Level 1 - Projects
 
 #### Abstract (Work in progress)
